@@ -1,0 +1,56 @@
+.ads {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 300px;
+  height: 250px;
+  margin-top: 125px;
+}
+.sampleAD {
+  position: absolute;
+  bottom: -100%;
+  display: block;
+  /* border: 1px red solid; */
+  left: 84%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #2d2f3c;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.size {
+  position: absolute;
+  bottom: -100%;
+  /* border: 1px red solid; */
+  left: 84%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #2d2f3c;
+  text-align: center;
+}
+.hlist {
+  max-width: 1200px;
+  padding: 0;
+  margin: 0;
+  margin-top: 2%;
+}
+
+.hlist li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px;
+}
+
+.btn-dark {
+  background: #1f1f1f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

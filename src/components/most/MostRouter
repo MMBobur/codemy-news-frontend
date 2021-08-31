@@ -1,0 +1,27 @@
+import "./App.css";
+import Most from "./components/most/Most";
+import Details_news from "./components/most/Details_news";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/news/:newsId" component={Details_news} />
+      </Switch>
+      <Switch>
+        <Route exact path="/news" component={Most} />
+      </Switch>
+      <Route exact path="/">
+        <Redirect to="/news" />
+      </Route>
+    </Router>
+  );
+}
+
+export default App;

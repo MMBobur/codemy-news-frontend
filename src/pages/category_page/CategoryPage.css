@@ -1,0 +1,163 @@
+/* ================= Titles Section ================= */
+
+.categoryPage-title {
+    border-bottom: 1px #e3e3e7 solid;
+    height: 13rem;
+    background-color: #FAFAFC;
+}
+.categoryPage-title li {
+    display: inline-block;
+    padding-right: 4px;
+    margin-top: 70px;
+    font-size: 1rem;
+    color: #838584;
+}
+.categoryPage-title ul {
+    height: 6rem;
+}
+.categoryPage-title p {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.home-link {
+    color: #838584;
+}
+.home-link:hover{
+    text-decoration: none;
+    color: #838584;
+}
+
+/* ================= /Titles Section ================= */
+
+/* ============== Most Read Cards ================== */
+
+.mostRead-categories {
+    height: auto;
+    padding-right: 20px;
+}
+.card-row {
+    /* border: 1px grey solid; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .inner-row {
+    height: 200px;
+  }
+  .most-image {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .most-image:hover {
+    transform: scale(1.4);
+  }
+  .img-section {
+    overflow: hidden;
+    height: 190px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .mostNews-btn-group {
+    height: auto;
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .data-name-button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(235, 204, 30);
+    border-radius: 2px;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .data-button {
+    font-size: 1rem;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 2px;
+    color: #000;
+    margin-right: 10px;
+  }
+  .mostNews-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.7rem;
+  }
+  .mostNews-about-new {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0.7rem;
+    max-width: 50rem;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 102px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .loadMore-button {
+    height: 80px;
+  }
+  .loadMore-button button {
+    width: 160px;
+    height: 40px;
+    padding-left: 5px;
+    border: none;
+    background: #222631;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20rem;
+    vertical-align: -30px;
+  }
+  @media (max-width: 781.98px) {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .inner-row {
+      height: 211px;
+    }
+    .loadMore-button button {
+      margin-left: 20%;
+    }
+  }
+  .hlist {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+  }
+  
+  .hlist li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px;
+  }
+  
+  .btn-dark {
+    background: #1f1f1f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+/* ============== /Most Read Cards ================== */
