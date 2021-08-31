@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-row {
+  /* border: 1px grey solid; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.inner-row {
+  height: 200px;
+}
+.most-image {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s ease;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.most-image:hover {
+  transform: scale(1.4);
+}
+.img-section {
+  overflow: hidden;
+  height: 190px;
+  width: 100%;
+  margin: 5px 0;
+}
+.mostNews-btn-group {
+  height: auto;
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.data-name-button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(235, 204, 30);
+  border-radius: 2px;
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 10px;
+}
+.data-button {
+  font-size: 1rem;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(245, 244, 244);
+  border-radius: 2px;
+  color: #000;
+  margin-right: 10px;
+}
+.mostNews-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.7rem;
+}
+.mostNews-about-new {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0.7rem;
+  max-width: 50rem;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 102px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.mostRead-title {
+  height: 80px;
+  padding: 20px;
+}
+.mostRead-title p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.loadMore-button {
+  height: 80px;
+}
+.loadMore-button button {
+  width: 160px;
+  height: 40px;
+  padding-left: 5px;
+  border: none;
+  background: #222631;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 20rem;
+  vertical-align: -30px;
+}
+@media (max-width: 781.98px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .inner-row {
+    height: 211px;
+  }
+  .loadMore-button button {
+    margin-left: 20%;
+  }
+}
+/* ======== SEARCH ========== */
+.search-section {
+  height: 70px;
+  text-align: center;
+}
+.search-section input {
+  width: 300px;
+  padding: 10px;
+  vertical-align: -20px;
+}
+/* ======== /SEARCH ========== */
